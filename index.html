@@ -1,127 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fonts title -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Fonts texts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Icons -->
-    <script src="https://kit.fontawesome.com/64cf8f81a0.js" crossorigin="anonymous"></script>
 
-    <title>CV</title>
-  </head>
-  <body>
-    <section class="principal">
-      <div class="img-container">
-        <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="" class="img-profile" />
-      </div>
-      <br />
-      <h2 class="full-name">
-        Darrell<br />
-        Murphy
-      </h2>
-      <p class="profession">Desarrollador Web Full Stack</p>
-      <div class="description-container">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fonts title -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Fonts texts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/64cf8f81a0.js" crossorigin="anonymous"></script>
+
+  <title>CV</title>
+</head>
+
+<body>
+  <section class="principal">
+    <div class="img-container">
+      <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="" class="img-profile" />
+    </div>
+    <br />
+    <h2 class="full-name">
+      Darrell<br />
+      Murphy
+    </h2>
+    <p class="profession">Desarrollador Web Full Stack</p>
+    <div class="description-container">
       <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum tempus egestas sed sed risus. Dapibus ultrices in iaculis nunc sed augue lacus viverra. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Elementum tempus egestas sed sed risus. Dapibus ultrices in iaculis nunc sed augue lacus viverra.
+      </p>
+    </div>
+    <div class="line"></div>
+    <nav>
+      <ul class="list">
+        <a class="links" href="#skills"><li class="navigation"><i class="fa-solid fa-star"></i>Habilidades</li></a>
+        <a class="links" href="#px"><li class="navigation"><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</li></a>
+        <!-- px: professional experience -->
+        <a class="links" href="#languages"><li class="navigation"><i class="fa-solid fa-language"></i>Idiomas</li></a>
+        <a class="links" href="#education"><li class="navigation"><i class="fa-solid fa-book"></i>Formación Académica</li></a>
+        <!-- ¡¡¡¡¡¡Cambiar educacion por formacion academica!!!!! -->
+        <a class="links" href="#contact"><li class="navigation"><i class="fa-solid fa-phone"></i>Contacto</li></a>
+      </ul>
+    </nav>
+  </section>
+  <section class="content">
+    <div class="skills" id="skills">
+      <h2>Habilidades</h2>
+      <p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>MySQL</li>
+        <li>Express</li>
+        <li>EJS</li>
+        <li>TypeScript</li>
+        <li>Metodologías Ágiles</li>
+      </ul>
 
       </p>
     </div>
-      <div class="line"></div>
-      <nav>
-          <ul class="list">
-              <li class="link-skills"><i class="fa-solid fa-star"></i><a href="#skills">Habilidades</a></li>
-              <li class="link-px"><i class="fa-solid fa-briefcase"></i><a href="#px">Experiencia Laboral</a></li>
-              <!-- px: professional experience -->
-              <li class="link-languages"><i class="fa-solid fa-language"></i><a href="#languages">Idiomas</a></li>
-              <li class="link-education"><i class="fa-solid fa-book"></i><a href="#education">Educacion</a></li>
-              <li class="link-contact"><i class="fa-solid fa-phone"></i><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </section>
-    <section class="content">
-        <div class="skills" id="skills">
-            <h2>Habilidades</h2>
-            <p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>MySQL</li>
-                    <li>Express</li>
-                    <li>EJS</li>
-                    <li>TypeScript</li>
-                    <li>Metodologías Ágiles</li>
-                </ul>
-            
-        </p>
-        </div>
-        <br>
-        <div class="px" id="px">
-          <h2>Experiencia Laboral</h2>
-          <h3>Nombre de empresa</h3>
-          <h4>Puesto/Cargo</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error eius ratione laudantium repellat laboriosam veniam delectus</p>
-          <br>         
-          <h3>Nombre de empresa</h3>
-          <h4>Puesto/Cargo</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error eius ratione laudantium repellat laboriosam veniam delectus</p>
-          <br>
-          <h3>Nombre de empresa</h3>
-          <h4>Puesto/Cargo</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error eius ratione laudantium repellat laboriosam veniam delectus</p>
-          <br>
-          <h3>Nombre de empresa</h3>
-          <h4>Puesto/Cargo</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error eius ratione laudantium repellat laboriosam veniam delectus</p>       
-        </div>
-        <div class="languages" id="languages">
-          <h2>Idiomas</h2>
-          <ul>
-            <li>Español: Nativo</li>
-            <li>Inglés: Intermedio - Tecnico: Avanzado</li>
-          </ul>
-        </div>
-        <div class="education" id="education">
-          <h2>Educacion</h2>
-          <h3>Nombre de la institución</h3>
-          <h4>Título</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error eius ratione laudantium repellat laboriosam veniam delectus</p>
-          <br>
-          <h3>Nombre de la institución</h3>
-          <h4>Título</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error eius ratione laudantium repellat laboriosam veniam delectus</p>
-          <br>          
-        </div>
-        <div class="contact" id="contact">
-          <h2>Contacto</h2>
-          <ul>
-            <li><i class="fa-solid fa-location-dot"></i>8640 E North St</li>
-            <li><i class="fa-solid fa-envelope"></i>darrel.murphy@example.com</li>
-            <li><i class="fa-solid fa-phone"></i>(694) 368-3776</li>
-            <li></li>
-          </ul>
-        </div>
-    </section>
-   
-  </body>
+    <br>
+    <div class="px" id="px">
+      <h2>Experiencia Laboral</h2>
+      <h3>Nombre de empresa</h3>
+      <h4>Puesto/Cargo</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error
+        eius ratione laudantium repellat laboriosam veniam delectus</p>
+      <br>
+      <h3>Nombre de empresa</h3>
+      <h4>Puesto/Cargo</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error
+        eius ratione laudantium repellat laboriosam veniam delectus</p>
+      <br>
+      <h3>Nombre de empresa</h3>
+      <h4>Puesto/Cargo</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error
+        eius ratione laudantium repellat laboriosam veniam delectus</p>
+      <br>
+      <h3>Nombre de empresa</h3>
+      <h4>Puesto/Cargo</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error
+        eius ratione laudantium repellat laboriosam veniam delectus</p>
+    </div>
+    <div class="languages" id="languages">
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español: Nativo</li>
+        <li>Inglés: Intermedio - Tecnico: Avanzado</li>
+      </ul>
+    </div>
+    <div class="education" id="education">
+      <h2>Formación Académica</h2>
+      <h3>Nombre de la institución</h3>
+      <h4>Título</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error
+        eius ratione laudantium repellat laboriosam veniam delectus</p>
+      <br>
+      <h3>Nombre de la institución</h3>
+      <h4>Título</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore blanditiis fuga odit incidunt corporis error
+        eius ratione laudantium repellat laboriosam veniam delectus</p>
+      <br>
+    </div>
+    <div class="contact" id="contact">
+      <h2>Contacto</h2>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i>8640 E North St</li>
+        <li><i class="fa-solid fa-envelope"></i>darrell.murphy@example.com</li>
+        <li><i class="fa-solid fa-phone"></i>(694) 368-3776</li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <!-- Js -->
+  <script src="index.js"></script>
+</body>
+
 </html>
